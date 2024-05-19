@@ -1,0 +1,31 @@
+/* ResultsPage.css */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-bordered {
+    border: 2px solid #dee2e6;
+}
+
+.table-warning {
+    background-color: yellow !important;
+}
+
+.table-danger {
+    background-color: #FF1D18 !important; /* Bright red */
+    color: white; /* Ensure text is readable */
+}
+
+.container {
+    margin-top: 50px;
+}

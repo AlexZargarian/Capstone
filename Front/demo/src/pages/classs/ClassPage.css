@@ -1,0 +1,61 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #28a745;
+}
+
+.btn-custom {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+}
+
+.link-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.class-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.class-card:hover {
+  transform: translateY(-5px);
+}
+
+.class-card .card-body {
+  padding: 1.5rem;
+}
+
+.class-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
